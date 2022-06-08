@@ -1,3 +1,10 @@
+/**
+ * @description       : 
+ * @author            : navin.patil@rupeek.com
+ * @group             : 
+ * @last modified on  : 06-09-2022
+ * @last modified by  : navin.patil@rupeek.com
+**/
 public with sharing class BuildingController {
     
     @AuraEnabled
@@ -10,7 +17,7 @@ public with sharing class BuildingController {
             throw new AuraHandledException(exp.getMessage());
         }
     }
-    
+    //this is test comment
     @AuraEnabled
     public static Flat__c insertFlat(Flat__c flatObj){
         try {
